@@ -1,4 +1,4 @@
-Dans ce niveau on voit que dans e main il y a un appel a un pointeur sur fonction `0x080484d0 <+84>:	call   *%eax`
+Dans ce niveau on voit que dans le main il y a un appel a un pointeur sur fonction `0x080484d0 <+84>:	call   *%eax`
 
 Si on regarde les fonctions existantes nous avec `m()` et `n()`
 
